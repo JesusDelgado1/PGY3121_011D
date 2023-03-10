@@ -1,0 +1,56 @@
+Como funciona la web
+Existen mils de computadores en esta red llamados servidores. El concepto de servidor esta dado por dos definiciones:
+
+Servidores:
+- Servidor Web: permitira almacenar y organizar paginas web de las cuales seran consultadas por los clientes mediantes navegadores, por ejemplo. Chrome, Firefox, etc.
+- Servidor de archivos
+- Servidor de correo electronico
+- Servidor de base de datos
+- Servidor de proxy
+- Servidor de DNS
+
+-----------------------------------------------
+
+Protocolo HTTP:
+
+   ------------------>
+   |      Petición 
+Cliente --- HTTP --- Servidor
+          Respuesta     |
+     < -------------------
+
+Un cliente genera una petición, el servidor responde con un mensaje similiar (Respuesta), que contiene el estado de la operación y su posible resultado. 
+Esta respuesta puede ser un documento HTML, fichero multimedia o aplicación CGI. Por lo general se usa HTTP como raíz de una URL.
+
+
+-----------------------------------------------
+
+¿Qué es una URL?
+- Es el acronimo de Universal Resource Locator y sirbe para ubicar algún recurso en un servidor que preste algún servicio.
+ 
+
+         Nombre del Host
+             |
+http://www.duoc.cl/admision/inicio.html
+  |                    |
+Protocolo            Recurso
+
+
+¿Qué es el DNS?
+- Es el acronimo de Servidor de Nombre de Dominios (DNS), este servidor traduce el nombre de dominio.
+
+El DNS enruta tu solicitud hacia el servidor.
+El servidor de destino busca el recurso y lo envía hacia tu software cliente.
+
+
+-----------------------------------------------
+
+Páginas estaticas V/S dinámicas
+
+- Páginas estáticas: corresponde a paginas con contenido no actualizable en forma automnática, no interactuan con bases de datos ni con tecnologias de renderizado de contenidos.
+- Páginas dinámicas: Corresponden a páginas que interactuan con bases de datos o tecnologias de que permitan al usuario interactuar. 
+
+
+-----------------------------------------------
+
+- Buscar que es un servicio de hosting
